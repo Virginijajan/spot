@@ -1,0 +1,61 @@
+body,
+body * {
+margin: 0;
+padding: 0;
+vertical-align: top;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+    background-color: #9D7CFF;
+    position: absolute;
+
+}
+
+main {
+    display: inline-block;
+    background-color: white;
+    width: 800px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+
+    
+
+
+
+}
+    .virsus { display: inline-block;
+            height: 80px;
+            border-bottom: 1px solid gray;
+            width: 100%;
+
+           
+
+
+
+    } 
+        img {display: inline-block;
+           
+
+        }   
+        .c1 {display: inline-block;
+            float: left;
+
+        }
+        .c2 {display: inline-block;
+            float: right;
+
+        }
+        .c3 {
+
+        }
+        .c4 {
+
+        }
+        
+
+
+
