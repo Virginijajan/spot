@@ -7,55 +7,128 @@ box-sizing: border-box;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-
 body {
     background-color: #9D7CFF;
-    position: absolute;
-
-}
-
-main {
+}    
+.container {
     display: inline-block;
     background-color: white;
     width: 800px;
-    position: absolute;
-    top: 100px;
-    left: 200px;
+    margin-top: 200px;
+    margin-left: calc(( 100% - 800px ) / 2);
+    border: 1px solid black;
 
+}    
+
+
+.title {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid black;
     
 
-
-
 }
-    .virsus { display: inline-block;
-            height: 80px;
-            border-bottom: 1px solid gray;
-            width: 100%;
-
-           
-
-
-
-    } 
-        img {display: inline-block;
-           
-
-        }   
-        .c1 {display: inline-block;
+        .close {
+            display: inline-block;
             float: left;
 
+
         }
-        .c2 {display: inline-block;
+        img {
+            display: inline-block;
+            margin-left: calc((100% - 178px) / 2);
+
+        }
+        .rodykles {
+            display: inline-block;
             float: right;
 
-        }
-        .c3 {
 
         }
-        .c4 {
+            .right {
+                display: inline-block;
+                float: right;
+                margin-left: 20px;
+
+            }
+            .left {
+                display: inline-block;
+                float: right;
+                margin-left: 20px;
+
+
+
+            }
+
+main {
+    display: inline-block;
+    width: 100%;
+
+}
+    .forma {
+        display: inline-block;
+        width: 60%;
+        margin-left: 20%;
+
+
+    }
+        a {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+
 
         }
-        
+        .email {
+            display: inline-block;
+            width: 100%;
+
+        }
+        .passw {
+            display: inline-block;
+            width: 100%;
+
+
+        }
+        .or {
+            display: inline-block;
+            width: 100%;
+
+        }
+            .linija {
+                display: inline-block;
+                padding: 10px;
+                padding-left: 40px;
+                padding-right: 40px;
+
+
+            }
+            span {
+                display: inline-block;
+                padding: 10px;
+
+            }
+        .login {
+
+        }   
+            .remem {
+
+            }
+            .log {
+
+            }
+        .forgot {
+
+        }
+        p {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+
+        }
+        .sign {
+
+        }
 
 
 

@@ -3,41 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <main>
-        <div class="virsus">
-            <div class="c1">x</div>
-            <img src="./logo.png" alt="logo">
-            <div class="c2">&gt;</div>
-            <div class="c2">&lt;</div>
-           
-
+<div class="container">
+    <div class="title">
+        <div class="close">X</div>
+        <img src="./logo.png" alt="Logo">
+        <div class="rodykles">
+            <div class="left">&gt;</div>
+            <div class="right">&lt;</div>
         </div>
-        <div>
-            <div>
-                <img src="./fb.png" alt="fb">
-                <a href="#" class="c3">continue with facebook</a>
+    </div>
+    <main>
+        <div class="forma">
+            <a href="#">Continue with facebook</a>
+            <a href="#">Continue with apple</a>
+            <a href="#">Continue with phone number</a>
+            <input type="text" placeholder="Email address or username " class="email">
+            <input type="password" placeholder="Password" class="passw">
+            <div class="or">
+                <div class="linija"></div>
+                <span>or</span>
+                <div class="linija"></div>
+            </div>    
+            <div class="login">
+                <div class="remem">
+                    <input id="remember" type="checkbox">
+                    <label for="remember">Remember</label>
+                </div>
+                <a class="log" href="#">Log in</a>
             </div>
-            <div>
-                <img src="./appl.png" alt="app">
-                <a href="#" class="c4">continue with apple</a>
-            </div>            
-            <a href="#" class="c5">continue with phone number</a>
-            <div class="c6">or</div>
-            <input type="text" placeholder="Email address or user name">
-            <input type="password" placeholder="Password">
-            <div>
-                <input type="checkbox" id="c7">
-                <label for="c7">Remember me</label>
-                <a href="#" class="c8">Log in</a>
-            </div>
-            <a href="#" class="c9">Forgot your password</a>
+            <a class="forgot" href="#">Forgor your password?</a>
             <p>Don't have an account?</p>
-            <a href="#" class="c10">Sign up for Spotify</a>
+            <a class="sign" href="#">Sign up for Spotify</a>
+            
         </div>
     </main>
+</div>
+    
 </body>
 </html>
